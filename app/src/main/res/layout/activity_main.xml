@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Iuri Insali S1504620-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <Button style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/incidentsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Current Incidents"
+            />
+        <Button style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/roadworksButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Current Roadworks"
+            />
+        <Button style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/plannedRoadworksButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Planned Roadworks"
+            />
+        <TextView
+            android:id="@+id/urlInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Scottish Traffic RSS Parser Android App"
+            />
+    </LinearLayout>
+</ScrollView>
