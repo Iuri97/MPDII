@@ -25,7 +25,7 @@
         <activity android:name=".MapsMarkerActivity"/>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAMH5-WieYTwZJH8NIiXpG-PtruKsw2pdc" />
+            android:value="" />
 
 
     </application>
